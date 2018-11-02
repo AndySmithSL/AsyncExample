@@ -101,51 +101,5 @@ namespace AsyncExample
                 Thread.Sleep(10);
             }
         }
-
-        private void ATestMethod(string stuff)
-        {
-            //Hotfix1 remove System.Environment.NewLine
-            textBoxResults.Text += stuff;
-        }
-
-        private void Feature2(int number)
-        {
-            for (int i = 0; i < number; i++)
-            {
-                textBoxResults.Text += i.ToString() + System.Environment.NewLine;
-            }
-        }
-
-        //Working on master
-        private void MyMethod1(bool doStuff, string stuff)
-        {
-            if (doStuff)
-            {
-                textBoxResults.Text += doStuff;
-            }
-        }
-
-        //And lets make another change
-        private void MyMethod2()
-        {
-            textBoxResults.Clear();
-        }
-
-        //Issue 53 change
-        private void MyMethodIssue53()
-        {
-            textBoxResults.Text = "Issue 53";
-            textBoxResults.Text += "More Issue 53 and merge";
-        }
-
-        //Another issue 53 change
-        private void MyMethodIssue53(int num)
-        {
-            for (int i = 0; i < num; i++)
-            {
-                MyMethodIssue53();
-            }
-        }
-
     }
 }
