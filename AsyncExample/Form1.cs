@@ -107,12 +107,5 @@ namespace AsyncExample
         {
             textBoxResults.Text += stuff + System.Environment.NewLine;
         }
-
-        private void AChangeOnMaster(string stuff)
-        {
-            textBoxResults.Text += stuff;
-        }
-
-
     }
 }
