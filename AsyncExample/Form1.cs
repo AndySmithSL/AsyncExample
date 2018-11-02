@@ -104,7 +104,8 @@ namespace AsyncExample
 
         private void ATestMethod(string stuff)
         {
-            textBoxResults.Text += stuff + System.Environment.NewLine;
+            //Hotfix1 remove System.Environment.NewLine
+            textBoxResults.Text += stuff;
         }
 
         private void Feature2(int number)
