@@ -135,7 +135,6 @@ namespace AsyncExample
         private void MyMethodIssue53()
         {
             textBoxResults.Text = "Issue 53";
-            textBoxResults.Text += "More Issue 53";
         }
 
         //Another issue 53 change
