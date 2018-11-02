@@ -124,5 +124,11 @@ namespace AsyncExample
             }
         }
 
+        //And lets make another change
+        private void MyMethod2()
+        {
+            textBoxResults.Clear();
+        }
+
     }
 }
