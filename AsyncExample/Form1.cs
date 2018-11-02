@@ -114,5 +114,15 @@ namespace AsyncExample
                 textBoxResults.Text += i.ToString() + System.Environment.NewLine;
             }
         }
+
+        //Working on master
+        private void MyMethod1(bool doStuff, string stuff)
+        {
+            if (doStuff)
+            {
+                textBoxResults.Text += doStuff;
+            }
+        }
+
     }
 }
