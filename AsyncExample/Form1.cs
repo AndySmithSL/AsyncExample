@@ -101,5 +101,13 @@ namespace AsyncExample
                 Thread.Sleep(10);
             }
         }
+
+
+        private void ATestMethod(string stuff)
+        {
+            textBoxResults.Text += stuff + System.Environment.NewLine;
+        }
+
+
     }
 }
