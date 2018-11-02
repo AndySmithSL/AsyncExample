@@ -1,0 +1,10 @@
+C:\Users\asmith\source\repos\AsyncExample\AsyncExample\bin\Debug\AsyncExample.exe.config
+C:\Users\asmith\source\repos\AsyncExample\AsyncExample\bin\Debug\AsyncExample.exe
+C:\Users\asmith\source\repos\AsyncExample\AsyncExample\bin\Debug\AsyncExample.pdb
+C:\Users\asmith\source\repos\AsyncExample\AsyncExample\obj\Debug\AsyncExample.csprojAssemblyReference.cache
+C:\Users\asmith\source\repos\AsyncExample\AsyncExample\obj\Debug\AsyncExample.Form1.resources
+C:\Users\asmith\source\repos\AsyncExample\AsyncExample\obj\Debug\AsyncExample.Properties.Resources.resources
+C:\Users\asmith\source\repos\AsyncExample\AsyncExample\obj\Debug\AsyncExample.csproj.GenerateResource.cache
+C:\Users\asmith\source\repos\AsyncExample\AsyncExample\obj\Debug\AsyncExample.csproj.CoreCompileInputs.cache
+C:\Users\asmith\source\repos\AsyncExample\AsyncExample\obj\Debug\AsyncExample.exe
+C:\Users\asmith\source\repos\AsyncExample\AsyncExample\obj\Debug\AsyncExample.pdb
