@@ -130,5 +130,11 @@ namespace AsyncExample
             textBoxResults.Clear();
         }
 
+        //Issue 53 change
+        private void MyMethodIssue53()
+        {
+            textBoxResults.Text = "Issue 53";
+        }
+
     }
 }
