@@ -102,10 +102,17 @@ namespace AsyncExample
             }
         }
 
-
         private void ATestMethod(string stuff)
         {
             textBoxResults.Text += stuff + System.Environment.NewLine;
+        }
+
+        private void Feature2(int number)
+        {
+            for (int i = 0; i < number; i++)
+            {
+                textBoxResults.Text += i.ToString() + System.Environment.NewLine;
+            }
         }
     }
 }
